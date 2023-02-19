@@ -3,9 +3,3 @@ ipywidgets==8.0.4
 matplotlib==3.5.2
 mgzip==0.2.1
 numpy==1.21.5
-IPython==8.4.0
-jupyter_client==7.3.5
-jupyter_core==5.2.0
-jupyterlab==3.4.4
-notebook==6.4.12
-python==3.8.13
