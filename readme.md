@@ -34,14 +34,14 @@ Requirements:
 
 ## Replication of Results
 The primary results of our study can be replicated by running the cells within the RSNCDB-main.ipynb notebook file. The NCDB dataset should be downloaded, and the appropriate file location of the dataset should be specified in the "Loading the NCDB File" of the notebook. Subsequent section of the notebooks describe our process for model building and validation:
-*Minimal Feature Set - graphs variables based on availability in NCDB and univariate predictive accuracy to identify candidate features for the study
-*Model Training - selects appropriate patients from NCDB, splits the dataset into training / testing cohorts, and performs sequential forward feature selection in the training cohort with the specified model to identify features for inclusion. 
-*ROC Analyses - contains the code for generating receiver operating characteristic curves within NCDB (under NCDB Model Assessment header) and the external University of Chicago Datasets (UCMC Model Validation header). Also contains subgroup analyses (Race Subgroup Analyses, Histologic Subgroup Analyses and Node Subgroup Analyses headers). 
-*Compiling Results - reformats the results dataframe to enable printing results in a readable format
-*Generating Baseline Demographics - prints baseline demogrpahics tables for the respective cohorts
-*Manuscript Figures - generates the figures in the accompanying manuscript
-*Tables - generates the tables in the accompanying manuscript
-*Pickles for Calculator - pickles the trained models for use in an online calculator
-*Gridsearch Results - prints a table of results of a gridsearch for optimal model / hyperparameters
+* Minimal Feature Set - graphs variables based on availability in NCDB and univariate predictive accuracy to identify candidate features for the study
+* Model Training - selects appropriate patients from NCDB, splits the dataset into training / testing cohorts, and performs sequential forward feature selection in the training cohort with the specified model to identify features for inclusion. 
+* ROC Analyses - contains the code for generating receiver operating characteristic curves within NCDB (under NCDB Model Assessment header) and the external University of Chicago Datasets (UCMC Model Validation header). Also contains subgroup analyses (Race Subgroup Analyses, Histologic Subgroup Analyses and Node Subgroup Analyses headers). 
+* Compiling Results - reformats the results dataframe to enable printing results in a readable format
+* Generating Baseline Demographics - prints baseline demogrpahics tables for the respective cohorts
+* Manuscript Figures - generates the figures in the accompanying manuscript
+* Tables - generates the tables in the accompanying manuscript
+* Pickles for Calculator - pickles the trained models for use in an online calculator
+* Gridsearch Results - prints a table of results of a gridsearch for optimal model / hyperparameters
 
 The code to conduct a gridsearch for optimal model is in the RSNCDB-explore_models.py file.
