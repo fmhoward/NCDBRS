@@ -1,7 +1,7 @@
 # Development and Validation of a Breast Cancer Recurrence Model Demonstrates Accurate Identification of Patients with Favorable Long-Term Outcomes
 Here, we present the development and validation of a machine leraning model to predict breast cancer recurrence risk using clinicopathologic variables in the National Cancer Database. We developed models using quantitative ER/PR/Ki-67 status, ER/PR status alone, and no quantitative data. We identified 'rule-out' thresholds, identifying very low risk (95% sensitivity for high Oncotype score) and low risk (90% sensitvitiy) patients. These patients have excellent long term prognosis and may be candidates for hormonal therapy alone without further testing, although additional prospecitve study is needed.
 <br>
-<img src="https://github.com/fmhoward/DLRS/blob/main/figures/overview.png?raw=true" width="600">
+<img src="https://github.com/fmhoward/NCDBRS/blob/main/overview.png?raw=true" width="600">
 
 ## Attribution
 ```
