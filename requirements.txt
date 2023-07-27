@@ -1,5 +1,0 @@
-voila==0.4.0
-ipywidgets==8.0.4
-matplotlib==3.5.2
-mgzip==0.2.1
-numpy==1.21.5
