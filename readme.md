@@ -4,11 +4,12 @@ Here, we present the development and validation of a machine leraning model to p
 <img src="https://github.com/fmhoward/NCDBRS/blob/main/overview.png?raw=true" width="400">
 
 ## Attribution
+If you find our work useful, please cite our paper in <a href=https://www.nature.com/articles/s41523-024-00651-5>NPJ Breast Cancer</a>
 ```
 @article{howard_rsncdb_2023,
-	title = {Development and Validation of a Breast Cancer Recurrence Model Demonstrates Accurate Identification of Patients with Favorable Long-Term Outcomes},
+	title = {Development and Validation of a Clinical Breast Cancer Tool for Accurate Prediction of Recurrence},
 	copyright = {2023 The Author(s)},
-	url = {https://github.com/fmhoward/NCDBRS},
+	url = {[https://www.nature.com/articles/s41523-024-00651-5](https://www.nature.com/articles/s41523-024-00651-5)},
 	abstract = {The Oncotype DX (ODX) test is a 21-gene expression assay widely used for the prediction of risk recurrence in early-stage breast cancer, but due to the high costs of testing, previous studies have attempted to replicate ODX with quantitative clinicopathologic variables. However, such models have only been evaluated on small cohorts of patients which may not be nationally applicable. Using a cohort of patients from the National Cancer Database (NCDB, n = 53,346), we trained machine learning models for prediction of low-risk (0-25) or high-risk (26-100) ODX score using quantitative ER/PR/Ki-67 status, quantitative ER/PR status alone, and no quantitative features. Models were externally validated on a diverse cohort of 970 patients for accuracy in ODX prediction and recurrence, with longitudinal follow-up spanning more than 10 years. When comparing the area under the receiver operating characteristic curve (AUROC) in a held-out test set from NCDB, models incorporating quantitative ER/PR (AUROC 0.78, 95% CI 0.77–0.80) and quantitative ER/PR/Ki-67 (AUROC 0.81, 95% CI 0.80–0.83) both performed better than the non-quantitative model (AUROC 0.70, 95% CI 0.68–0.72). These results were preserved in the validation cohort, where the quantitative ER/PR/Ki-67 model (AUROC 0.87, 95% CI 0.81–0.93) outperformed the non-quantitative model (AUROC 0.80, 95% CI 0.73–0.87, p = 0.009). Using a high sensitivity rule-out threshold, the quantitative ER/PR and ER/PR/Ki-67 models identified 30% and 43% of patients as likely having low ODX. Of these low-risk patients, recurrence was <3% at 5 years, and no patient who recurred had a high ODX score. These models may be useful to identify patients who can forgo genomic testing and proceed with endocrine therapy alone, and an online calculator is provided to facilitate further study.},
 	language = {en},
 	author = {Dhungana, Asim and Vannier, Augustin and Zhao, Fangyuan and Freeman, Jincong Q. and Saha, Poornima and Sullivan, Megan and Yao, Katherine and Elbio, Flores M. and Olopade, Olufunmilayo I. and Pearson, Alexander T. and Huo, Dezheng and Howard, Frederick M.},
